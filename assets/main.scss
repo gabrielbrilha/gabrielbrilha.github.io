@@ -1,0 +1,35 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "minima";
+
+body {
+  background-color: #f8f2d7;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.post-list h3,
+.site-title {
+    font-family: "Playfair Display", serif;
+}
+
+.site-header {
+  border-top: none;
+  border-bottom: none;
+}
+
+.site-footer {
+  border-top: none;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #1e1b1b;
+  height: 0;
+  width: 75%;
+  margin: 2em auto;
+}
