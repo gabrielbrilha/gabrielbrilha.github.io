@@ -6,7 +6,7 @@
 @import "minima";
 
 body {
-  background-color: #f8f2d7;
+  background-color: #fffbe8;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -26,10 +26,15 @@ h1, h2, h3, h4, h5, h6,
   text-align: center;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #1e1b1b;
-  height: 0;
-  width: 75%;
-  margin: 2em auto;
+.profile-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
